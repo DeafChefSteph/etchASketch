@@ -1,0 +1,1 @@
+Etch-a-sketch in vanilla JavaScript
