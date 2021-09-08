@@ -4,9 +4,23 @@
     border: 3px solid black;
     width: 800px;
     height: auto;
-    margin: auto;
+    float: right;
+ 
 }
 .oneDivStyle{
-    height: 20px;
-    width: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+button{
+    width: 100px;
+    float: center;
+}
+.main{
+    display: flex;
+}
+.sidebar{
+    width: 20%;
+    display: flex;
+    flex-flow: column;
 }
