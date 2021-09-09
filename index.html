@@ -4,7 +4,9 @@
         <link rel="stylesheet" href="etchASketch.css">
         <script src="etchASketch.js" defer></script>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+            </style> 
     </head>
     <body>
         <h1 style="text-align: center;">Etch-a-Sketch</h1>
@@ -14,12 +16,14 @@
         <button id="drawButton"><span class="material-icons">draw</span></button>
         <button id="eraseButton"><span class="material-icons">remove</span></button>
         <button id="disabledButton"><span class="material-icons">edit_off</span></button>
-        <input type="range" id="newField" value="16" min="12" max="32">
+        <input type="range" id="newField" value="16" min="12" max="32" start="16">
         <p id="indForNewField">16x16</p>
         <button id="createNewField">Create Field</button>
         </div>
         <div id="sketchField">
         </div>
+        <div id="quote"><p>"Every Canvas is a Journy on its own." - Helen Frankenthaler</p></div>
     </div>
+    <footer><br><br><br><p>Made by DeafChefSteph</p></footer>
     </body>
 </html>

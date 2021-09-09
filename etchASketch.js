@@ -41,6 +41,7 @@ const createNewFieldButton = document.querySelector('#createNewField');
 let draw = false, disable = false;
 
 createField(16);
+paraForRangeInd.textContent = rangeForNewField.value + "x" +rangeForNewField.value ;
 
 
 

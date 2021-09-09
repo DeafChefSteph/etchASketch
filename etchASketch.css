@@ -1,8 +1,11 @@
 #sketchField{
+    position: absolute;
+    left: 32%;
     display: flex;
     flex-wrap: wrap;
     border: 3px solid black;
     width: 800px;
+    margin: 10px;
     height: auto;
     float: right;
  
@@ -18,9 +21,83 @@ button{
 }
 .main{
     display: flex;
+    margin: 10px;
+    height: 810px;
 }
 .sidebar{
     width: 20%;
-    display: flex;
-    flex-flow: column;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    margin: 10px;
+    border: 3px solid black;
+}
+#resetButton{
+    grid-column-start: 1;
+    grid-column-end:4 ;
+    grid-row-start:1 ;
+    grid-row-end:2 ;
+    width: 100%;
+}
+#drawButton{
+    grid-column-start: 1;
+    grid-column-end:4 ;
+    grid-row-start:2 ;
+    grid-row-end:3 ;
+    width: 100%;
+}
+#eraseButton{
+    grid-column-start: 1;
+    grid-column-end:4 ;
+    grid-row-start:3 ;
+    grid-row-end:4 ;
+    width: 100%;
+}
+#disabledButton{
+    grid-column-start: 1;
+    grid-column-end:4 ;
+    grid-row-start:4 ;
+    grid-row-end:5 ;
+    width: 100%;
+}
+#newField{
+    grid-column-start: 1;
+    grid-column-end:3 ;
+    grid-row-start:5 ;
+    grid-row-end:6 ;
+}
+#indForNewField{
+    grid-column-start: 3;
+    grid-column-end:4 ;
+    grid-row-start:5 ;
+    grid-row-end:6 ;
+
+    text-align: center;
+    margin: auto;
+}
+#createNewField{
+    grid-column-start: 1;
+    grid-column-end:4 ;
+    grid-row-start:6 ;
+    grid-row-end:7 ;
+    width: 100%;
+}
+
+#quote{
+    position: absolute;
+    right: 8%;
+    text-align: center;
+    width: 15%;
+    height: 810px;
+    border: 3px solid black;
+    font-size: 40px;
+}
+#quote p{
+    margin-top: 90%;
+    font-family: 'Allison', cursive;
+    
+}
+
+footer{
+    text-align: center;
 }
