@@ -62,7 +62,7 @@ rangeForNewField.addEventListener('change', function(){
   });
 
   createNewFieldButton.addEventListener('click',function(){
-    alert(rangeForNewField.value);
+  
     clearDivs(); 
     createField(rangeForNewField.value);
   });
