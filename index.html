@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="etchASketch.css">
+        <script src="etchASketch.js" defer></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <h1 style="text-align: center;">Etch-a-Sketch</h1>
+        <div class="main">
+        <div class= sidebar>
+        <button id="resetButton"><span class="material-icons">restart_alt</span></button>
+        <button id="drawButton"><span class="material-icons">draw</span></button>
+        <button id="eraseButton"><span class="material-icons">remove</span></button>
+        <button id="disabledButton"><span class="material-icons">edit_off</span></button>
+        <input type="range" id="newField" value="16" min="12" max="32">
+        <p id="indForNewField">16x16</p>
+        <button id="createNewField">Create Field</button>
+        </div>
+        <div id="sketchField">
+        </div>
+    </div>
+    </body>
+</html>
